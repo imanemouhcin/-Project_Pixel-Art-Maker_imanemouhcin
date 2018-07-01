@@ -1,4 +1,6 @@
 https://imanemouhcin.github.io/-Project_Pixel-Art-Maker_imanemouhcin/
+
+Andela Learning Community (ALC) #7DaysofCodeChallenge Udacity & google
 # Pixel Art Maker Project
 
 ## Table of Contents
