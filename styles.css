@@ -1,0 +1,92 @@
+html {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+body {
+    text-align: center;
+    background-color: rgb(194, 225, 247)
+}
+
+
+h1 {
+    font-family: Monoton;
+    color: #010860;
+    font-size: 70px;
+    font-weight: 500;
+    padding: 2.5% 0 3% 0;
+    margin: 0.2em;
+}
+.firstWord {
+    color: #16b5dd;
+}
+h2 {
+    color: #49ac6f;
+    font-family: 'Open Sans';
+    padding: 3% 0 3% 0;
+    font-size: 1.3em;
+}
+.pick-size {
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    font-weight: 500;
+}
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+#sizePicker {
+    padding-left: 70px;
+}
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    cursor: pointer;
+}
+
+input[type=number] {
+    width: 6em;
+    margin: 0 10px 5px 0;
+    border: 2px solid #16dd37;
+    border-radius: 5px;
+}
+input[type=submit] {
+    background-color:  #9091bb;
+    font-weight: 700;
+    width: 10em;
+    height: 3em;
+    margin-top: 6%;
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.4);
+    border: 1px solid #9091bb;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+}
+input[type=submit]:hover {
+  opacity: 0.7;
+}
+input[type=color] {
+    width: 4em;
+    height: 2em;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.center {
+    margin: 4% 3% 3% 0;
+    vertical-align: middle;
+    text-align: center;
+}
